@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    background-color:#05445E;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    position: sticky;
+    border-radius: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 40px;
+    color: white;
+    
+}
+
+.logo img{
+    height: 60px;
+   margin-right: 15px;
+    border-radius: 40px;
+    border: 1px solid #404040; 
+}
+.example input{
+    height: 42px;
+    width: 350px;
+}
+.example button{
+    height: 41px;
+    margin-left: -5px;
+    width: 35px;
+    background-color:rgb(77, 110, 110);
+    border: 2px solid rgb(77, 110, 110);
+    color: white;
+}
+.wrapper{
+    margin-right: 15px;
+}
+/* Wrapper icons */
+.icon{
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 10rem;
+    background-color: rgb(77, 110, 110);
+    color: #fff;
+    font-family: arial;
+    font-size: 13px;
+    letter-spacing: 0.15rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+}
+.icon:hover{
+    color: #151515;
+
+}
+.icon::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    z-index: -1;
+    border-radius: 10rem;
+    transition: 0.3s ease all;
+    transform: scale(0,1);
+    transform-origin: top right;
+    transition: transform 500ms cubic-bezier(0.86, 0, 0.07, 1);
+    transition-timing-function:cubic-bezier(0.86, 0, 0.07, 1) ;
+}
+.icon:hover::after{
+    transform: scale(1,1);
+    transform-origin: top left;
+}
+/* Slide */
+.slide{
+    background-color: rgb(77, 110, 110);
+    background-image: url(https://assets.tatacliq.com/medias/sys_master/images/44751471018014.jpg);
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position:center center ;
+    background-size: 87% 400px;
+    margin-bottom: 10px;
+    
+}
+.category1 legend{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    margin: 0px 10px 0px 20px;
+    padding: 0px 30px;
+}
+ .main {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 0px 90px 20px 90px;
+    padding: 0px 30px;
+    background-color: #484343;
+    color: white;
+
+}
+.category2 legend{
+    font-size: 25px;
+    
+    padding: 0px 20px;
+}
+.categories{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    font-style: oblique;
+}
+.categories img{
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+    border: 2px #05445E solid;
+    
+}
+.categories img:hover{
+    height: 90px;
+    width: 90px;
+    border-radius: 30px;
+    border: 2px #05445E solid;
+    
+}
+.categories a:hover{
+    background-color: rgb(29, 49, 49);
+}
+.container_img{
+    background-color: rgb(127, 90, 94);
+    background-image: url(backimg2.jpg);
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-position:center center ;
+    background-size: 88% 300px;
+    margin-bottom: 30px;
+
+}
+.brand-img{
+    background-color: #e3d1c9;
+    background-image: url(backimg3.jpg);
+    min-height: 350px;
+    background-repeat: no-repeat;
+    background-position:center center ;
+    background-size: 93% 350px;
+    margin-bottom: 30px;
+}
+.brand-img.men{
+    background-color: rgb(234, 248, 248);
+    background-image: url(menswear.jpg);
+    min-height: 350px;
+    background-repeat: no-repeat;
+    background-position:center center ;
+    background-size: 88% 350px;
+}
+.brand-img.women{
+    background-color: rgb(234, 248, 248);
+    background-image: url(womenswear.jpg);
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-position:center center ;
+    background-size: 88% 300px;
+}
+.brand-img.kids{
+    background-color: rgb(234, 248, 248);
+    background-image: url(kidswear.jpg);
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-position:center center ;
+    background-size: 89% 300px;
+}
+
+.brand-img.gadget{
+    background-color: rgb(234, 248, 248);
+    background-image: url(gadgets.jpg);
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-position:center center ;
+    background-size: 90% 300px;
+}
+.brand-img.beauty{
+    background-color: rgb(234, 248, 248);
+    background-image: url(beauty.jpg);
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-position:center center ;
+    background-size: 90% 300px;
+}
+.menbrand img,.womenbrand img,.kidsbrand img,.beautybrand img,.gadgetbrand img{
+    height: 60px;
+    
+    
+}
+.menbrand img:hover,.womenbrand img:hover,.kidsbrand img:hover,.beautybrand img:hover,.gadgetbrand img:hover{
+    height: 90px;
+    
+}
+.menbrand a:hover,.womenbrand a:hover,.kidsbrand a:hover,.beautybrand a:hover,.gadgetbrand a:hover{
+    background-color: aquamarine;
+    
+}
+
+.menbrand,.womenbrand,.kidsbrand,.gadgetbrand,.beautybrand{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+    
+}
+.brands2,.brands1{
+    margin-bottom: 50px;
+}
+ 
+
+
+
+
