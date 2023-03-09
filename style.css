@@ -141,7 +141,7 @@ nav{
 }
 .container_img{
     background-color: rgb(127, 90, 94);
-    background-image: url(backimg2.jpg);
+    background-image: url(Images/backimg2.jpg);
     min-height: 300px;
     background-repeat: no-repeat;
     background-position:center center ;
@@ -151,7 +151,7 @@ nav{
 }
 .brand-img{
     background-color: #e3d1c9;
-    background-image: url(backimg3.jpg);
+    background-image: url(Images/backimg3.jpg);
     min-height: 350px;
     background-repeat: no-repeat;
     background-position:center center ;
@@ -160,7 +160,7 @@ nav{
 }
 .brand-img.men{
     background-color: rgb(234, 248, 248);
-    background-image: url(menswear.jpg);
+    background-image: url(Images/menswear.jpg);
     min-height: 350px;
     background-repeat: no-repeat;
     background-position:center center ;
@@ -168,7 +168,7 @@ nav{
 }
 .brand-img.women{
     background-color: rgb(234, 248, 248);
-    background-image: url(womenswear.jpg);
+    background-image: url(Images/womenswear.jpg);
     min-height: 300px;
     background-repeat: no-repeat;
     background-position:center center ;
@@ -176,7 +176,7 @@ nav{
 }
 .brand-img.kids{
     background-color: rgb(234, 248, 248);
-    background-image: url(kidswear.jpg);
+    background-image: url(Images/kidswear.jpg);
     min-height: 300px;
     background-repeat: no-repeat;
     background-position:center center ;
@@ -185,7 +185,7 @@ nav{
 
 .brand-img.gadget{
     background-color: rgb(234, 248, 248);
-    background-image: url(gadgets.jpg);
+    background-image: url(Images/gadgets.jpg);
     min-height: 300px;
     background-repeat: no-repeat;
     background-position:center center ;
@@ -193,7 +193,7 @@ nav{
 }
 .brand-img.beauty{
     background-color: rgb(234, 248, 248);
-    background-image: url(beauty.jpg);
+    background-image: url(Images/beauty.jpg);
     min-height: 300px;
     background-repeat: no-repeat;
     background-position:center center ;

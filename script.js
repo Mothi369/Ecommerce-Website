@@ -42,7 +42,7 @@ const categories=document.querySelector('.categories')
 data_cat.forEach((item)=>{
     categories.innerHTML +=
     `<div class="cat-img">
-    <a href="${item.link}" target="_blank" ><img src="${item.profilepic}" alt="Categories"></a>
+    <a href="${item.link}" target="_parent" ><img src="${item.profilepic}" alt="Categories"></a>
         <h3>${item.name}</h3>
     </div>
     `
@@ -50,22 +50,22 @@ data_cat.forEach((item)=>{
 /* Men brands */
 const men_brands=[
     {
-        image:"vanheusen.png",
+        image:"Images/vanheusen.png",
         name:"Van Heusen",
         link:"https://www.tatacliq.com/mens-clothing/c-msh11?q=%3Arelevance%3Acategory%3AMSH11%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH11A00024&icid2=regu:shpb:main:mnav:m11:a00024:best:05:R3"
     },
     {
-        image:"allensolly.png",
+        image:"Images/allensolly.png",
         name:"Allen solly",
         link:"https://www.tatacliq.com/mens-clothing/c-msh11?q=%3Arelevance%3Acategory%3AMSH11%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH11A00023&icid2=regu:shpb:main:mnav:m11:a00023:best:06:R3"
     },
     {
-        image:"uspolo.png",
+        image:"Images/uspolo.png",
         name:"U.S. Polo Assn",
         link:"https://www.tatacliq.com/search/?searchCategory=all&text=U.S.%20Polo%20Assn"
     },
     {
-        image:"levis.png",
+        image:"Images/levis.png",
         name:"Levis",
         link:"https://www.tatacliq.com/search/?searchCategory=all&text=Levi%27s"
     }
@@ -78,22 +78,22 @@ men_brands.forEach((item)=>{
 /* Women brands */
 const women_brands=[
     {
-        image:"utsa.jfif",
+        image:"Images/utsa.jfif",
         name:"",
         link:"https://www.tatacliq.com/womens-clothing/c-msh10?q=%3Arelevance%3Acategory%3AMSH10%3AinStockFlag%3Atrue%3Abrand%3AMBH11A00191&icid2=regu:shpb:main:wnav:m10:a00175:best:01:R1"
     },
     {
-        image:"globaldesi.jfif",
+        image:"Images/globaldesi.jfif",
         name:"",
         link:"https://www.tatacliq.com/global-desi/c-mbh11a00001"
     },
     {
-        image:"okhai.jfif",
+        image:"Images/okhai.jfif",
         name:"",
         link:"https://www.tatacliq.com/womens-clothing/c-msh10?q=%3Arelevance%3Acategory%3AMSH10%3AinStockFlag%3Atrue%3Abrand%3AMBH11A00313"
     },
     {
-        image:"westside.png",
+        image:"Images/westside.png",
         name:"",
         link:"https://www.tatacliq.com/westside/c-mbh11a00004?&icid2=regu:shpb:main:wnav:m10:a00004:best:01:R2"
     }
@@ -106,18 +106,18 @@ women_brands.forEach((item)=>{
 /* Kids brands */
 const kid_brands=[
     {
-        image:"ginijony.png",
+        image:"Images/ginijony.png",
         name:"",
         link:"https://www.tatacliq.com/gini-jony/c-mbh11a00144"
     },
     {
-        image:"kiddies.jpg",
+        image:"Images/kiddies.jpg",
         name:"",
         link:"https://www.tatacliq.com/kids/c-msh21?q=%3Arelevance%3Acategory%3AMSH21%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH11A00020"
     },
     
     {
-        image:"biba.jpg",
+        image:"Images/biba.jpg",
         name:"",
         link:"https://www.tatacliq.com/kids/c-msh21/page-1?q=%3Arelevance%3Acategory%3AMSH21%3Acategory%3AMSH21%3Acategory%3AMSH21%3Acategory%3AMSH21%3Acategory%3AMSH21%3Acategory%3AMSH21%3Acategory%3AMSH21%3Acategory%3AMSH21%3Acategory%3AMSH21%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH11B10587"
     }
@@ -131,22 +131,22 @@ kid_brands.forEach((item)=>{
 /* Gadgets brands */
 const gadget_brands=[
     {
-        image:"apple.jfif",
+        image:"Images/apple.jfif",
         name:"",
         link:"https://www.tatacliq.com/electronics-head-phones/c-msh1234?q=%3Arelevance%3Acategory%3AMSH1234%3AinStockFlag%3Atrue%3Abrand%3AMBH12E00008"
     },
     {
-        image:"titan.png",
+        image:"Images/titan.png",
         name:"",
         link:"https://www.tatacliq.com/titan/c-mbh15e01399"
     },
     {
-        image:"redmi.png",
+        image:"Images/redmi.png",
         name:"",
         link:"https://www.tatacliq.com/search/?searchCategory=all&text=redmi"
     },
     {
-        image:"boat.jfif",
+        image:"Images/boat.jfif",
         name:"",
         link:"https://www.tatacliq.com/search/?searchCategory=all&text=boat"
     }
@@ -159,22 +159,22 @@ gadget_brands.forEach((item)=>{
 /* Beauty brands */
 const beauty_brands=[
     {
-        image:"lakme.jpg",
+        image:"Images/lakme.jpg",
         name:"",
         link:"https://www.tatacliq.com/beauty-&-grooming/c-msh25/page-1?q=%3Arelevance%3Acategory%3AMSH25%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH22B12699&icid2=catd:tsb:clp:bea:m25:b12699:best:05:R36:clp:bx:010"
     },
     {
-        image:"skinn.png",
+        image:"Images/skinn.png",
         name:"",
         link:"https://www.tatacliq.com/beauty-&-grooming/c-msh25/?q=%3Arelevance%3Acategory%3AMSH25%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH22B12078&icid2=catd:tsb:clp:bea:m25:b12078:best:02:R36:clp:bx:010"
     },
     {
-        image:"plum.jfif",
+        image:"Images/plum.jfif",
         name:"",
         link:"https://www.tatacliq.com/plum-green-tea-alcohol-free-toner-green-tea-toner--200-ml/p-mp000000009083926"
     },
     {
-        image:"mamaearth.png",
+        image:"Images/mamaearth.png",
         name:"",
         link:"https://www.tatacliq.com/mamaearth-onion-shampoo--1000-ml/p-mp000000012214246"
     }
